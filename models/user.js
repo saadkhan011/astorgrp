@@ -22,6 +22,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
+    releaseDate:{
+      type: Date,
+    },
     password: {
       type: String,
       required: false,
